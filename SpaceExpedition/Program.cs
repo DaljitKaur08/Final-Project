@@ -1,5 +1,5 @@
-﻿using System.ComponentModel.Design;
-using System.Xml.Serialization;
+﻿using System;
+
 
 namespace SpaceExpedition
 {
@@ -55,8 +55,11 @@ namespace SpaceExpedition
                         }
                     }
 
-                } else if (choice == "2")
+                }
+                 else if (choice == "2")
                 {
+                    if(vault.Count == 0)
+                    {
                     Console.WriteLine("Vault is empty");
                 }
                 else
@@ -68,8 +71,6 @@ namespace SpaceExpedition
                     }
                 }
             }
-
-
              else if (choice == "3")
             {
                 VaultFileManager.SaveSummary("expedition_summary.txt", vault);
