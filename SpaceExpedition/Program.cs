@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Vault vault = new Vault(10);
-            Cons
+            
              
                 
         }
