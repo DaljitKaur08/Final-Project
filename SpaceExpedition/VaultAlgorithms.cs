@@ -51,12 +51,13 @@ namespace SpaceExpedition
         }
         public static void OrderedInsert(Vault vault , Artifact newArtifact, int insertPosition)
         {
-            vault.AddAtEnd(newArtifact);
+            vault.EnsureSpace();
             for (int i = vault.Count - 1; i > insertPosition; i--)
             {
                 vault.Items[i] = vault.Items[i - 1];
             }
             vault.Items[insertPosition] = newArtifact;
+            vault.IncreaseCount();
         }
     }
 }
