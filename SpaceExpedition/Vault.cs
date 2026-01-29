@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace SpaceExpedition
 {
@@ -39,5 +40,14 @@ namespace SpaceExpedition
             }
             Items = bigger;
         }
+            public void EnsureSpace()
+        {
+            EnsureCapacity();
+        }
+        public void IncreaseCount()
+        {
+            Count++;
+        }
+        
     }
 }
