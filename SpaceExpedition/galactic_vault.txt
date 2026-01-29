@@ -1,5 +1,5 @@
-A3|Mars|2098-04-12|Sector A-1| A small red stone
-B1|Earth|2100-01-10|Sector B-2| A glass cube
-C2|Moon|2087-06-19|Sector C-3| An old silver coin
-D1|Venus|2095-09-08|Sector D-4| A warm yellow crystal
-E2|Jupiter|2102-04-25|Sector E-5| A glowing blue orb
+A3|B1, Mars, 2098-04-12, Sector A-1, A small red stone
+B1|Z1, Earth, 2100-01-10, Sector B-2, A glass cube
+C2|X2, Moon, 2087-06-19, Sector C-3, An old silver coin
+D1|Y1, Venus, 2095-09-08, Sector D-4, A warm yellow crystal
+E2|T2, Jupiter, 2102-04-25, Sector E-5, A glowing blue orb

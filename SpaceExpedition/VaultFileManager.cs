@@ -78,7 +78,7 @@ namespace SpaceExpedition
         }
         private static Artifact ParseLine(string line)
         {
-            string[] parts = line.Split('|');
+            string[] parts = line.Split(',');
             if (parts.Length < 5)
             {
                 Console.WriteLine("Warning :Bad line skipped");

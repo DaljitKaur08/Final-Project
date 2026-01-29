@@ -8,13 +8,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="artifact_new.txt" />
+    <None Remove="artifact_test.txt" />
     <None Remove="galactic_vault.txt" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="artifact_test.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="galactic_vault.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="artifact_new.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
   </ItemGroup>
 
 </Project>
